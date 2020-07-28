@@ -1,0 +1,6 @@
+title: 你又来看我了吗
+Author: zhou jianqing
+url: https://zhou-jianqing.github.io
+
+plugins: [jekyll-paginate]
+paginate: 0xffffffff

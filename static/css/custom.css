@@ -1,0 +1,117 @@
+/* Reset
+   ========================================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Typography
+   ========================================================================= */
+
+body {
+    font-family: Helvetica, "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #384452;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #088acb;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 16px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+a {
+    color: #088acb;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #62bbe7;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+code {
+    color: #e83e8c;
+}
+
+pre {
+    background: #f5f5f5;
+    border-radius: 0.25rem;
+    padding: 0.3em 0.6em;
+}
+
+/* Layout
+   ========================================================================= */
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 750px; }
+}
+
+@media (min-width: 992px) {
+.container {
+    width: 970px; }
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 1170px; }
+}
+
+@media (min-width: 992px) {
+.md-col-8 {
+    width: 66.666667%;
+    margin: 0 auto; }
+}
+
+/* Components
+   ========================================================================= */
+
+.copyright {
+    font-size: 14px;
+    margin: 2em auto;
+    text-align: center;
+    color: #337ab7;
+}
+
+.copyright a:hover,
+.copyright a:focus {
+    color: #0085a1;
+}
